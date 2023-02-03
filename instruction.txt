@@ -1,0 +1,25 @@
+Left click/Right click: Put down first/second point
+
+Tickbox "Path": Show shortest path (this will automatically run if the path is not found yet)
+Tickbox "Graph": Show the graph of all posible movement
+
+Radio button "None" "Index" "Position": Show nothing/index/position of each vertice that make up the map
+
+"Clear All Vertices": Clear the map of all vertices
+"Start Draw Session": Start drawing your own map! (This will clear the current map)
+   - Left click: add a point to the map
+   - Right click: End the drawing (Note: This will not work if the first point and last point cannot be connected)
+
+"Export Graph": Return a text that is the list of all vertices that make up the current map
+"Import Graph": Get the list on the textbox, then turn it into a map (should only be used with import graph. deepcopy is used)
+
+"Generate Map": Automatically create a maze with inputed height and width
+"Auto run on load": When a map is done generating, a run will instantly happen. Good if you know your first and second point will always be on the map
+"Maintain aspect ratio": If you don't like "generate map" to stretch the thing out to fit the screen out, use this
+
+"Full Run/Rerun": If a map exist, and both point is in the map, run a dijkstra code to search for the path between the two point
+
+
+UI:
+- Dijkstra: Time it took to run Dijkstra
+- Graph: Time it took to graph out all the posible path from the map
