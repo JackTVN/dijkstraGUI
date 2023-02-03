@@ -1,0 +1,10 @@
+DijkstraGUI Run Time Test				
+				
+Dimension	Vertices (Approximate)	Dijkstra Time (sec)	Graphing Time (sec)	Total Time (sec)
+5 x 10	              66	              0.005	                0.17	        0.175
+6 x 12	              98	              0.006	                0.39	        0.396
+8 x 16	             180	              0.019	                2.02	        2.039
+10 x 20	             302	              0.058	                9.96	        10.018
+12 x 24	             398	              0.086	                23.32	        23.406
+15 x 30	             600	              0.203	                92.72	        92.923
+17 x 34	             800	              0.512	                182.01	        182.522
